@@ -4,6 +4,10 @@
     margin: 30px;
     gap: 20px;
   }
+
+.clothing {
+    text-align: center;
+}
   
   .images {
     height: 400px;
