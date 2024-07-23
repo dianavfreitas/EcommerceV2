@@ -1,0 +1,281 @@
+.slider img{
+    width: 100%;
+}
+
+.quote{
+   position: relative;
+   bottom: 500px;
+   text-align: center;
+}
+
+.quote h1{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.quote button{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 70px;
+    width: 200px;
+    background: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.quote button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    position: relative;
+    bottom: 100px;
+}
+
+.section2 img{
+    height: 500px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 250px;
+}
+
+.buttons button{
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background: none;
+    color: white;
+}
+
+.club{
+    width: 100%;
+}
+
+.john{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    position: relative;
+    bottom: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    
+    .slider img{
+        width: 410px;
+    }
+
+    .quote{
+        position: relative;
+        bottom: 200px;
+        text-align: center;
+        width: 100%;
+     }
+     
+     .quote h1{
+         font-size: 40px;
+         font-family: 'Times New Roman', Times, serif;
+         font-weight: lighter;
+         color: white;
+         padding-bottom: 30px;
+         display: flex;
+         justify-content: left;
+     }
+     
+     .quote button{
+         border: 1px solid white;
+         border-radius: 5px;
+         height: 50px;
+         width: 150px;
+         background: none;
+         font-size: 20px;
+         font-family: 'Times New Roman', Times, serif;
+         color: white;
+         float: left;
+     }
+     
+     .quote button:hover{
+         background-color: white;
+         color: black;
+         cursor: pointer;
+     }
+
+     .section2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin: 20px;
+        bottom: 100px;
+    }
+    
+    .section2 img{
+        height: 350px;
+    }
+    
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        bottom: 35rem;
+        gap: 280px;
+    }
+    
+    .buttons button{
+        height: 70px;
+        width: 200px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: black;
+        cursor: pointer;
+    }
+
+
+    .club{
+        width: 100%;
+    }
+    
+    .john{
+        margin-left: 200px;
+        top: 0px;
+        width: 50px;
+        height: 100px;
+    }
+
+
+    footer{
+        width: 410px;
+        height: 15rem;
+    }
+    
+    .notice{
+        display: grid;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    nav{
+        height: 10rem;
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .slider img{
+        width: 100%;
+    }
+
+    .quote{
+        position: relative;
+        bottom: 200px;
+        text-align: center;
+     }
+     
+     .quote h1{
+         font-size: 40px;
+         font-family: 'Times New Roman', Times, serif;
+         font-weight: lighter;
+         color: white;
+         padding-bottom: 30px;
+         display: flex;
+         justify-content: left;
+     }
+     
+     .quote button{
+         border: 1px solid white;
+         border-radius: 5px;
+         height: 50px;
+         width: 150px;
+         background: none;
+         font-size: 20px;
+         font-family: 'Times New Roman', Times, serif;
+         color: white;
+         float: left;
+     }
+     
+     .quote button:hover{
+         background-color: white;
+         color: black;
+         cursor: pointer;
+     }
+
+     .section2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin: 20px;
+        /* position: relative; */
+        bottom: 100px;
+    }
+    
+    .section2 img{
+        height: 350px;
+    }
+    
+    .buttons{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        bottom: 90rem;
+        gap: 300px;
+    }
+    
+    .buttons button{
+        height: 70px;
+        width: 200px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        color: black;
+        cursor: pointer;
+    }
+
+
+    .club{
+        width: 410px;
+    }
+    
+    .john{
+        margin-left: 200px;
+        top: 0px;
+        width: 50px;
+        height: 100px;
+    }
+
+
+    footer{
+        width: 410px;
+        height: 15rem;
+    }
+    
+    .notice{
+        display: grid;
+    }  
+}

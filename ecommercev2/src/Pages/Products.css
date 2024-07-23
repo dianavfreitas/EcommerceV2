@@ -1,0 +1,49 @@
+.ropa{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px;
+}
+
+
+
+.images{
+    height: 400px;
+    padding-left: 60px;
+    padding-top: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.images:hover{
+    transform: scale(0.9);
+}
+
+.type{
+    display: none;
+}
+
+.desc{
+    font-size: 14px;
+}
+
+.pricing{
+    font-size: 14px;
+}
+
+.descriptions{
+    padding-left: 60px;
+}
+
+.addtocart{
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.addtocart:hover{
+    background-color: black;
+    color: white;
+}

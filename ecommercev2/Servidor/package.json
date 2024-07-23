@@ -1,0 +1,23 @@
+{
+    
+"dependencies": {
+    
+    
+"express": "^4.19.2",
+    
+    
+"mysql2": "^3.10.3"
+    
+},
+"scripts": {
+  "start": "node app",
+  "dev": "nodemon app"
+},
+    
+"devDependencies": {
+    
+    
+"nodemon": "^3.1.4"
+    
+}
+}
