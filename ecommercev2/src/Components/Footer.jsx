@@ -7,7 +7,7 @@ import Pinterest from '../images/pinterest.png'
 function Footer() {
   return (
     <div>
-      <footer>
+      <footer class="footer">
         <div class="icons">
             <a href="/"><img src={Instagram} alt="instagram" /></a>
             <a href="/"><img src={Tiktok} alt="tiktok" /></a>

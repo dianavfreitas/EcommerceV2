@@ -11,8 +11,7 @@ import John from '../images/john.png'
 
 function Home() {
   return (
-    <>
-    
+  
     <main>
         <div class="slider">
        
@@ -41,16 +40,15 @@ function Home() {
         </div>
 
         <div class="club">
-            <a href="/"><img src={Club} class="club" alt="club" /></a>
-    
+            <a href="/"><img src={Club} alt="club" class="club"/></a>
         </div>
 
         <div class="john">
-            <img src={John} alt="john" />
+            <img src={John} alt="john" class="john"/>
         </div>
     </main>
     
-    </>
+  
   )
 }
 
