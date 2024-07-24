@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f9d2cc8.css",
-    "main.js": "/static/js/main.53fcb6dc.js",
+    "main.css": "/static/css/main.6b96c92d.css",
+    "main.js": "/static/js/main.25ea9c55.js",
     "static/media/rack.jpg": "/static/media/rack.f4c853fb1995e8216a46.jpg",
     "static/media/shopjackets.jpeg": "/static/media/shopjackets.31ebaeab5fd179d2ba82.jpeg",
     "static/media/john.png": "/static/media/john.3a0d1076c0198eb05b67.png",
     "static/media/shopdresses.jpeg": "/static/media/shopdresses.0d5b9aaeadcdcc0888c6.jpeg",
+    "static/media/green.jpg": "/static/media/green.fe47536b3de4316cc232.jpg",
     "static/media/shoptops.jpeg": "/static/media/shoptops.361daf866201033b22f9.jpeg",
+    "static/media/blue.jpg": "/static/media/blue.1a27c6aa03717afcb4fb.jpg",
     "static/media/shopbottoms.jpeg": "/static/media/shopbottoms.d4dae68861358c877969.jpeg",
+    "static/media/white.jpg": "/static/media/white.86efcdc1773856e572fe.jpg",
     "static/media/joinget.png": "/static/media/joinget.1d1df7da1969267d732a.png",
     "static/media/instagram.png": "/static/media/instagram.79535458a8a6d88f81d4.png",
     "static/media/tik-tok.png": "/static/media/tik-tok.a645e99a44aea69d0ac1.png",
     "static/media/pinterest.png": "/static/media/pinterest.e38f3012dc571ed17e78.png",
     "static/media/logo.png": "/static/media/logo.fdb3ee15190b149bfde6.png",
     "index.html": "/index.html",
-    "main.5f9d2cc8.css.map": "/static/css/main.5f9d2cc8.css.map",
-    "main.53fcb6dc.js.map": "/static/js/main.53fcb6dc.js.map"
+    "main.6b96c92d.css.map": "/static/css/main.6b96c92d.css.map",
+    "main.25ea9c55.js.map": "/static/js/main.25ea9c55.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f9d2cc8.css",
-    "static/js/main.53fcb6dc.js"
+    "static/css/main.6b96c92d.css",
+    "static/js/main.25ea9c55.js"
   ]
 }
