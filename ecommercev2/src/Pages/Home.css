@@ -3,14 +3,23 @@
     margin: 0;
 }
 
-.slider img{
+.hero  {
+    height: 100vh;
+}
+
+.hero img{
     width: 100%;
 }
 
 .club{
     width: 100%;
-    display: flex;
-    justify-content: center;
+    height: 100%;
+}
+.video {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .john{
@@ -143,14 +152,21 @@
     .material-icons{
         display: none;
     }
+    .hero  {
+        height: 62vh;
+    }
+    
 
-    .slider img{
+    .hero img{
         width: 100%;
     }
 
     .club{
         width: 100%;
+
     }
+
+
 
     .john{
         width: 90%;

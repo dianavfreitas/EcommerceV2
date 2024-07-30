@@ -8,29 +8,25 @@ import Jackets from  '../images/shopjackets.jpeg'
 import White from  '../images/white.jpg'
 import Green from '../images/green.jpg'
 import Blue from '../images/blue.jpg'
-import Club from '../images/joinget.png'
-import John from '../images/john.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import 'swiper/css/bundle';
+import { Keyboard, Pagination,Navigation } from 'swiper/modules';
 
 
 function Home() {
   return (
   
     <main>
-        <div class="slider">
-       
+        <div className="hero">
             <img src={Rack} alt="rack" id="slide-1" class="rack" />
-        </div>
-
-        <div class="quote">
+            <div className="quote">
             <h1>The Spring Collection</h1>
             <a href="/"><button>Shop Now</button></a>
         </div>
+        </div>
 
-        <div class="john">
+
+        <div className="john">
           <h1>The joy of dressing is an art...</h1>
         </div>
 
@@ -39,10 +35,12 @@ function Home() {
         slidesPerView={4}
         spaceBetween={30}
         centeredSlides={true}
+        navigation={true}
+        keyboard={{enabled: true}}
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Pagination,Keyboard,Navigation]}
         className="mySwiper"
       >
         <SwiperSlide><img src={Dress} alt="dress" /></SwiperSlide>
@@ -56,10 +54,11 @@ function Home() {
 
       </Swiper>
 
-      
-
-        <div class="club">
-            <a href="/"><img src={Club} alt="club" class="club"/></a>
+    
+        <div className="club">
+            <video autoPlay muted loop className="video">
+              <source src="join-video.mp4" type='video/mp4'/>
+            </video>
         </div>
     </main>
     

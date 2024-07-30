@@ -6,7 +6,6 @@ import Logo from '../images/logo.png'
 
 function Navbar() {
   return (
-    <div>
       <nav>
         <div class="nav-container">
             <ul> 
@@ -21,7 +20,6 @@ function Navbar() {
         
         
         </nav>
-    </div>
   )
 }
 

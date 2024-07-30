@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import '../Pages/Contact.css';
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', comment: '' });
-  const [errors, setErrors] = useState({});
+  const [formData, setFormData] = useState({ name: '', email: '', comment: '' }); //Initializes object formData to keep track of the requirements
+  const [errors, setErrors] = useState({}); //Stores validation errors
 
   const validateEmail = (email) => {
     const re = /\S+@\S+\.\S+/;
     return re.test(String(email).toLowerCase());
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e) => { //Takes name and value and updates it
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -18,7 +18,7 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { //Handles and checks the submission requirements, if nothing is displayed the form won't submit
     e.preventDefault();
     let formErrors = {};
 
